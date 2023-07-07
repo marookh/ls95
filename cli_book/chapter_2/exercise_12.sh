@@ -1,10 +1,5 @@
-// View what you have done with the tree command: tree ~/cli-tmp.
-$ tree ~/cli-tmp
-/Users/[username]/cli-tmp/
-└── parents
-  ├── children
-  │   ├── bob
-  │   └── grandchildren
-  │       └── bob
-  └── nephews
-      └── bob
+// Copy the contents of a the "nephews" directory to the "children" directory.
+
+$ cp -r ../nephews/* ./
+
+
