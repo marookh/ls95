@@ -1,29 +1,27 @@
-/* 
-run the following command: cd, ls, and pwd.
-First, let's see what your current directory is:
-*/
+#run the following command: cd, ls, and pwd.
+#First, let's see what your current directory is:
+
 
 $ pwd 
 /home/ubuntu
 
-// Next, you can try changing your directory with the cd command:
+#Next, you can try changing your directory with the cd command:
 $ cd/ 
 $ pwd 
 /
 
-// If you try to change your current directory to a location that doesn't exist, cd will output an error:
+#If you try to change your current directory to a location that doesn't exist, cd will output an error:
 cd /asdf
 -bash: cd: /asdf: No such file or directory
 
-// Now let's see what files and directories exist in the / directory:
+#Now let's see what files and directories exist in the / directory:
 $ ls 
 bin   home            lib64       opt   sbin  usr
 boot  initrd.img      lost+found  proc  srv   var
 dev   initrd.img.old  media       root  sys   vmlinuz
 etc   lib             mnt         run   tmp   vmlinuz.old
 
-/*
-Without any arguments, ls just prints out a list of the files and directories in the current directory.It doesn't tell you much about those files and directories, though. If you add a couple of arguments, you can get the ls command to give up more information about each item in the directory:
+#Without any arguments, ls just prints out a list of the files and directories in the current directory.It doesn't tell you much about those files and directories, though. If you add a couple of arguments, you can get the ls command to give up more information about each item in the directory:
 ls -lah
 total 84K
 drwxr-xr-x  22 root   root   4.0K May 14 17:31 .
