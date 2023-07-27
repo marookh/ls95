@@ -1,3 +1,3 @@
-// Creat a file named "bob".
+# Create a file named "bob".
 
 $ touch bob
